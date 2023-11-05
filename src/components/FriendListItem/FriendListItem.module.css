@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: #bddbf2;
+}
+.avatar {
+  width: 60px;
+}
+.online {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: green;
+}
+.offline {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+}
+.name {
+  font-size: 30px;
+}
